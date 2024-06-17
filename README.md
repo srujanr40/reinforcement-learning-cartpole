@@ -5,7 +5,7 @@ Uses Q-Learning (Bellman Equation) to train an agent to balance a pole upright o
 The cartpole problem and visual rendering used is available thorugh [gymnasium](https://gymnasium.farama.org/). 
 
 ### Requirements
-- Python 3.10+
+- Python 3.8+
 - Jupyter Notebook
 - gymnasium
 - numpy
