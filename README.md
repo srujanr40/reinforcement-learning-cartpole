@@ -16,9 +16,8 @@ The code is broken down with Jupyter and located in the `cartpole.ipynb` file. T
 To run the code all at once, run the `cartpole.py` file
 
 ### Cartpole with agent choosing random actions
-
-
+![Pre-training](output/pre.gif)
 
 ### Cartpole with the agent choosing optimal policy after Q-learning
-
+![Post-training](output/post.gif)
 
