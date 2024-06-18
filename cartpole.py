@@ -16,8 +16,9 @@ class QLearning:
 
         # rewards sum per episode
         self.sumEpisodeRewards=[]
-
+        
         self.Qmatrix=np.random.uniform(low=0, high=1, size=(numberOfBins[0],numberOfBins[1],numberOfBins[2],numberOfBins[3],self.numberOfActions))
+        #self.Kmatrix=np.ones(shape = (numberOfBins[0],numberOfBins[1],numberOfBins[2],numberOfBins[3],self.numberOfActions), dtype=int)
 
     # convert continuous values of the state into discrete values for Q-learning
     def getDiscreteState(self, state):
